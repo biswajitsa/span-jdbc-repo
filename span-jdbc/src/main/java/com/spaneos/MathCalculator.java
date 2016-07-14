@@ -19,5 +19,14 @@ public class MathCalculator {
 		}
 		return sum;
 	}
+	public int reverseOfNumber(int num){
+		int dg=0,rev=0;
+		while(num<0){
+			dg=num%10;
+			rev=rev+dg*10;
+			num=num/10;
+		}
+		return rev;
+	}
 
 }
