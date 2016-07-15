@@ -19,4 +19,8 @@ public class MathCalculatorTest {
 				int res=new MathCalculator().getSum(a);
 				Assert.assertEquals(-45, res);
 		}
+		@Test
+		public void getConnection(){
+			
+		}
 }
